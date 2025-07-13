@@ -90,7 +90,7 @@ celerybeat-schedule
 .venv
 venv/
 ENV/
-
+connectoviz_env/
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -113,3 +113,10 @@ node_modules/
 
 # notebooks
 notebooks/
+
+# DS_Store
+.DS_Store
+
+# specific scripts
+# ignore 'generate_example_notebook.py'
+generate_example_notebook.py
